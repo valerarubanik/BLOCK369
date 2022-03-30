@@ -1,0 +1,34 @@
+got account state for -1:8156775B79325E5D62E742D9B96C30B6515A5CD2F1F64C5DA4B193C03F070E0D with respect to blocks (-1,8000000000000000,1645):4D5E1B928490BE34A4F03C9BC996661B8AD4E988F1460DB69BE3634B1E843DAF:9D85BB116D1DA4BFD999E9092BBD43B3A9F96EC9C9ED7AFDC81B27B08D3861A0 and (-1,8000000000000000,1645):4D5E1B928490BE34A4F03C9BC996661B8AD4E988F1460DB69BE3634B1E843DAF:9D85BB116D1DA4BFD999E9092BBD43B3A9F96EC9C9ED7AFDC81B27B08D3861A0
+account state is (account
+  addr:(addr_std
+    anycast:nothing workchain_id:-1 address:x8156775B79325E5D62E742D9B96C30B6515A5CD2F1F64C5DA4B193C03F070E0D)
+  storage_stat:(storage_info
+    used:(storage_used
+      cells:(var_uint len:1 value:3)
+      bits:(var_uint len:2 value:539)
+      public_cells:(var_uint len:0 value:0)) last_paid:0
+    due_payment:nothing)
+  storage:(account_storage last_trans_lt:0
+    balance:(currencies
+      grams:(nanograms
+        amount:(var_uint len:7 value:1000000000000000))
+      other:(extra_currencies
+        dict:hme_empty))
+    state:(account_active
+      (
+        split_depth:nothing
+        special:nothing
+        code:(just
+          value:(raw@^Cell 
+            x{}
+             x{FF0020DDA4F260D31F01ED44D0D31FD166BAF2A1F80001D307D4D1821804A817C80073FB0201FB00A4C8CB1FC9ED54}
+            ))
+        data:(just
+          value:(raw@^Cell 
+            x{}
+             x{00000000}
+            ))
+        library:hme_empty))))
+x{CFF8156775B79325E5D62E742D9B96C30B6515A5CD2F1F64C5DA4B193C03F070E0D2068086C0000000000000000000000001C0E35FA931A000134_}
+ x{FF0020DDA4F260D31F01ED44D0D31FD166BAF2A1F80001D307D4D1821804A817C80073FB0201FB00A4C8CB1FC9ED54}
+ x{00000000}
